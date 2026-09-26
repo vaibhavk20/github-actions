@@ -10,4 +10,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: "goodbye"
-              run: echo "goodbye to the code step by step"`
+              run: echo "goodbye to the code step by step"
