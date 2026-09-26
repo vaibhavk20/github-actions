@@ -13,3 +13,6 @@ jobs:
 
             - name: Validate js files
               run: test -f script.js && echo "script.js file exists." || (echo "script.js file dos not exist." && exit 1)
+
+            - name: Validate js code
+              run: node --check script.js
